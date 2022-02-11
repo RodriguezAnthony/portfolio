@@ -1,11 +1,11 @@
 import React from 'react';
-import { NavbarContainer } from '../Navbar/Navbar.styled';
+import {  Link } from "react-router-dom"
 import { NavItemContainer } from './NavItem.styled';
 
-const NavItem = ({ text }) => {
+const NavItem = ({ text, path }) => {
   return(
     <NavItemContainer>
-      {text}
+      <Link to={path}>{text}</Link>
     </NavItemContainer>
   );
 };

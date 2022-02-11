@@ -6,7 +6,7 @@ export const NavbarContainer = styled.div`
     flex-direction: row;
     align-items: center;
     width: 45%;
-    height: 45px;
+    height: 4.5rem;
     background: #FFDDBE;
-    margin-top: 20px;
+    margin-top: 2rem;
 `

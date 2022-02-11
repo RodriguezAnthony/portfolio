@@ -5,10 +5,10 @@ import NavItem from '../NavItem/NavItem';
 const Navbar = () => {
   return(
       <NavbarContainer>
-        <NavItem text="Home" />
-        <NavItem text="About Me" />
-        <NavItem text="Projects" />
-        <NavItem text="Hobbies" />
+        <NavItem text="Home" path="/" />
+        <NavItem text="About Me" path="about" />
+        <NavItem text="Projects" path="projects" />
+        <NavItem text="Hobbies" path="hobbies" />
       </NavbarContainer>
   ) ;
 };
