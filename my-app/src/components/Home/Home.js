@@ -1,5 +1,5 @@
 import React from 'react'
-import { HomeContainer, HomeHeader,  HomeMainHeader, HomeSubHeader } from "./Home.styled"
+import { HomeContainer, HomeHeader, HomeMainHeader, HomeSubHeader } from "./Home.styled"
 
 const Home = () => {
   return (
