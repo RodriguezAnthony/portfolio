@@ -5,8 +5,8 @@ export const NavbarContainer = styled.div`
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    width: 45%;
+    width: 65%;
     height: 4.5rem;
-    background: #FFDDBE;
+    background: #EEEEEE;
     margin-top: 2rem;
 `
