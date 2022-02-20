@@ -1,5 +1,9 @@
 import React from 'react'
-import { HomeContainer, HomeHeader, HomeMainHeader, HomeSubHeader } from "./Home.styled"
+import { 
+  HomeContainer, HomeHeader, 
+  HomeMainHeader, HomeSubHeader, 
+  Picture } from "./Home.styled"
+  import coffee from '../../Pictures/coffee.jpg'
 
 const Home = () => {
   return (
@@ -7,7 +11,9 @@ const Home = () => {
       <HomeHeader>
         <HomeMainHeader>Hello my name is </HomeMainHeader>
         <HomeSubHeader>Anthony Rodriguez</HomeSubHeader>
+        <Picture src={coffee} alt="Me"></Picture>
       </HomeHeader>
+      
       
     </HomeContainer>
   )
