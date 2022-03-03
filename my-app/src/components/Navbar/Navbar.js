@@ -8,7 +8,7 @@ const Navbar = () => {
         <NavItem text="Home" path="/" />
         <NavItem text="About Me" path="about" />
         <NavItem text="Projects" path="projects" />
-        <NavItem text="Hobbies" path="hobbies" />
+        {/* <NavItem text="Hobbies" path="hobbies" /> */}
       </NavbarContainer>
   ) ;
 };
